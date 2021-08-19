@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.invalid{
+    color: rgb(248, 78, 78);
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+$c-01:#2F6BE5;
+    .signupWrapper{
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        .signupRightContainer{
+            display: flex;
+            justify-content: center;
+        }
+        .signupLeft{
+            margin: 0 2.5rem 0 2.5rem;
+            width: 50%;
+            font-family: 'Poppins';
+
+            h1{
+                margin: 1rem 0 1rem 0;
+            }
+
+            .or{
+                display: flex;
+                align-items: center;
+
+                hr{
+                    display: inline;
+                    width: 50%;
+                }
+
+                .orText{
+                    margin: 0 0.5rem 0 0.5rem;
+                }
+            }
+
+            .signupLeftImg{
+
+                    max-width: 100%;
+                    height: auto;
+                    margin: 1rem 0 1rem 0;
+                    width: 100%;
+                    text-align: center !important;
+                    border-radius: 10px !important;
+                    background-color: #2F6BE5!important;
+                    font-weight: 400!important;
+
+            }
+
+        }
+        .signupRight{
+            width: 50%;
+     
+                max-width: 100%;
+                height: auto;
+
+        }
+    }
+
+ 
+.labelText{
+    font-weight: 600;
+    font-size:2rem;
+}
+.formItems{
+    width: 100%;
+    margin:0 0.25rem 0 0.25rem ;
+}
+
+    .formText{
+        // height: 8vh;
+        width: 100%;
+        border-radius: 16px;
+        border: 1px solid gray;
+        font-size: 18px;
+        padding: 1rem 1.5rem;
+        margin-top: 0.5rem;
+}
+
+.formText:focus{
+    outline: none;
+    border: 1px solid $c-01;
+}
+
+.formRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+}
+
+.signupBtn{
+    width: 100%;
+    height: 6vh;
+    background-color:$c-01 ;
+    border:none;
+    color: white;
+    font-weight: 500;
+    font-size:1vw;
+    border-radius:12px;
+
+}
+
+.signupLeftRedirect{
+    display:flex;
+    justify-content:center;
+    margin: 1rem 0 1rem 0;
+    text-align:center;
+    font-size:1vw;
+
+    .redirectLink{
+        text-decoration: none;
+        color: $c-01;
+    }
+}
+.googleAuth{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:$c-01 ;
+    text-align: center;
+    align-items: center;
+    border-radius:12px;
+
+
+    
+    .authText{
+        text-align: center;
+        justify-content:center;
+        font-size:1vw;
+        font-weight:600;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .invalid{
+        font-size:3vw;
+    }
+}

@@ -1,0 +1,604 @@
+.vehicleWrapper {
+  margin-top: 10vh;
+}
+
+.vehicleWrapper .paymentSuccess .orderDetailsContent {
+  margin: 0 2.5rem 0 2.5rem;
+  padding: 1rem 1.5rem;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 16px;
+}
+
+.vehicleWrapper .paymentSuccess .paymentSuccessContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #47C6A8;
+  width: 98%;
+  margin: 2rem auto;
+  color: #FFFFFF;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+}
+
+.vehicleWrapper .paymentSuccess .paymentSuccessContent h1 {
+  font-family: "Poppins";
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.vehicleWrapper .paymentSuccess .paymentSuccessContent .success {
+  margin-left: auto;
+  -webkit-transform: scale(2) !important;
+          transform: scale(2) !important;
+}
+
+.vehicleWrapper .paymentSuccess .orderDetailsHeader {
+  width: 95%;
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.vehicleWrapper .paymentSuccess .orderDetails {
+  font-family: "Poppins";
+  font-size: 1.5vw;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 95%;
+  margin: 0rem auto;
+}
+
+.vehicleWrapper .paymentSuccess .orderDetails .dynamicButton {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button {
+  width: auto;
+  background-color: #2F6BE5;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25vw;
+  border-radius: 12px;
+  padding: 1rem  2rem;
+  text-align: center;
+}
+
+.vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.vehicleWrapper .vehicleContent {
+  margin: 5rem 2.5rem 0 2.5rem;
+  font-family: "Poppins";
+}
+
+.vehicleWrapper .vehicleContent h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.vehicleWrapper .vehicleContent p {
+  font-size: 16px;
+}
+
+.vehicleWrapper .vehicleContent .vehicleForm {
+  margin-top: 2rem;
+}
+
+.vehicleWrapper .vehicleContent .address {
+  height: 10vh;
+}
+
+.vehicleWrapper .vehicleContent .societyBtn {
+  cursor: pointer;
+  width: auto;
+  background-color: #2F6BE5;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1vw;
+  border-radius: 12px;
+  padding: 2rem  2rem;
+  text-align: center;
+}
+
+.vehicleWrapper .vehicleContent .societyBtn a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.totalFormRow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.totalFormRow h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.societyBtn {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.vehicleCost {
+  margin-left: 10px;
+  font-size: 3vw;
+  color: #2F6BE5;
+}
+
+.vehicleAlert {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+  .vehicleWrapper {
+    width: 100%;
+  }
+  .vehicleWrapper .paymentSuccess {
+    margin-bottom: 3rem;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #47C6A8;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 10vh;
+    margin: 2rem auto;
+    color: #FFFFFF;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent h1 {
+    font-family: "Poppins";
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent .success {
+    margin-left: auto;
+    -webkit-transform: scale(1.5) !important;
+            transform: scale(1.5) !important;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetailsHeader {
+    width: 88%;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails {
+    font-family: "Poppins";
+    font-size: 2vw;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 88%;
+    margin: 0rem auto;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button {
+    width: auto;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 2vw;
+    border-radius: 12px;
+    padding: 1rem  2rem;
+    text-align: center;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .vehicleWrapper .vehicleContent {
+    margin: 0 2.5rem 0 2.5rem;
+    font-family: "Poppins";
+  }
+  .vehicleWrapper .vehicleContent h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .vehicleWrapper .vehicleContent p {
+    font-size: 16px;
+  }
+  .vehicleWrapper .vehicleContent .vehicleForm {
+    margin-top: 2rem;
+  }
+  .vehicleWrapper .vehicleContent .address {
+    height: 10vh;
+  }
+  .vehicleWrapper .vehicleContent .societyBtn {
+    cursor: pointer;
+    width: auto;
+    height: 6vh;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5vw;
+    border-radius: 12px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .totalFormRow {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem 0;
+  }
+  .totalFormRow h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .societyBtn {
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .vehicleCost {
+    margin-left: 10px;
+    font-size: 4vw;
+    color: #2F6BE5;
+  }
+  .vehicleAlert {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .labelText {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vehicleWrapper {
+    width: 100%;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #47C6A8;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 10vh;
+    margin: 2rem auto;
+    color: #FFFFFF;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent h1 {
+    font-family: "Poppins";
+    font-size: 3.5vw;
+    font-weight: 500;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent .success {
+    margin-left: auto;
+    -webkit-transform: scale(1.3) !important;
+            transform: scale(1.3) !important;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetailsHeader {
+    width: 85%;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails {
+    font-family: "Poppins";
+    font-size: 3vw;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 85%;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton {
+    margin-left: auto;
+    cursor: pointer;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 3vw;
+    border-radius: 12px;
+    padding: 0.5rem  1rem;
+    text-align: center;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .vehicleWrapper .vehicleContent {
+    margin: 0 2.5rem 0 2.5rem;
+    font-family: "Poppins";
+  }
+  .vehicleWrapper .vehicleContent h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .vehicleWrapper .vehicleContent p {
+    font-size: 16px;
+  }
+  .vehicleWrapper .vehicleContent .vehicleForm {
+    margin-top: 2rem;
+  }
+  .vehicleWrapper .vehicleContent .address {
+    height: 10vh;
+  }
+  .vehicleWrapper .vehicleContent .societyBtn {
+    cursor: pointer;
+    width: auto;
+    height: 6vh;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 2vw;
+    border-radius: 12px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .totalFormRow {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 2rem;
+  }
+  .totalFormRow h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .societyBtn {
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .vehicleCost {
+    margin-left: 10px;
+    font-size: 8vw;
+    color: #2F6BE5;
+  }
+  .vehicleAlert {
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .formText {
+    font-size: 3vw;
+  }
+  .labelText {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vehicleWrapper {
+    width: 100%;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #47C6A8;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 10vh;
+    margin: 1rem auto;
+    color: #FFFFFF;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent h1 {
+    font-family: "Poppins";
+    font-size: 4.5vw;
+    font-weight: 500;
+  }
+  .vehicleWrapper .paymentSuccess .paymentSuccessContent .success {
+    margin-left: auto;
+    -webkit-transform: scale(1.5) !important;
+            transform: scale(1.5) !important;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetailsHeader {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails {
+    font-family: "Poppins";
+    font-size: 3vw;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 80%;
+    margin: 0rem auto;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails p {
+    margin-right: 2rem;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton {
+    margin-left: auto;
+    cursor: pointer;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button {
+    width: auto;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 1rem  1rem;
+    text-align: center;
+  }
+  .vehicleWrapper .paymentSuccess .orderDetails .dynamicButton button a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .vehicleWrapper .vehicleContent {
+    margin: 0 2.5rem 0 2.5rem;
+    font-family: "Poppins";
+  }
+  .vehicleWrapper .vehicleContent h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .vehicleWrapper .vehicleContent p {
+    font-size: 16px;
+  }
+  .vehicleWrapper .vehicleContent .vehicleForm {
+    margin-top: 2rem;
+  }
+  .vehicleWrapper .vehicleContent .address {
+    height: 10vh;
+  }
+  .vehicleWrapper .vehicleContent .societyBtn {
+    cursor: pointer;
+    width: auto;
+    height: 6vh;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 2vw;
+    border-radius: 12px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .totalFormRow {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 2rem;
+  }
+  .totalFormRow h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .societyBtn {
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .vehicleCost {
+    margin-left: 10px;
+    font-size: 8vw;
+    color: #2F6BE5;
+  }
+  .vehicleTotal {
+    font-size: 6vw !important;
+  }
+  .vehicleAlert {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .formText {
+    font-size: 3vw;
+  }
+  .labelText {
+    font-size: 3vw;
+  }
+}
+/*# sourceMappingURL=vehicle.css.map */

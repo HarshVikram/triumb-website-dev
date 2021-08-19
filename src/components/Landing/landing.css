@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.landingContainer {
+  margin: 5rem 2.5rem;
+}
+
+.landingContainer .landingWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingContainer .landingWrapper .landingLeft {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  font-family: 'Poppins';
+  font-size: 1.75vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landingContainer .landingWrapper .landingLeft h1 {
+  color: #2F6BE5;
+}
+
+.landingContainer .landingWrapper .landingLeft h2 {
+  font-size: 3vw;
+}
+
+.landingContainer .landingWrapper .landingVector {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .landingContainer {
+    margin: 2.25rem 1rem;
+    width: 100%;
+  }
+  .landingContainer .landingWrapper {
+    margin: 3rem 2.5rem 3rem 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landingContainer .landingWrapper .landingLeft {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+    font-family: 'Poppins';
+    font-size: 1.75vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landingContainer .landingWrapper .landingLeft h1 {
+    color: #2F6BE5;
+    font-size: 7vw;
+  }
+  .landingContainer .landingWrapper .landingLeft h2 {
+    font-size: 5vw;
+  }
+  .landingContainer .landingWrapper .landingVector {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landingContainer {
+    margin: 4rem 0 0 0;
+    width: 100%;
+  }
+  .landingContainer .landingWrapper {
+    margin: 1rem 2.5rem 1rem 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landingContainer .landingWrapper .landingLeft {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+    font-family: 'Poppins';
+    font-size: 1.75vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landingContainer .landingWrapper .landingLeft h1 {
+    color: #2F6BE5;
+    font-size: 7vw;
+  }
+  .landingContainer .landingWrapper .landingLeft h2 {
+    font-size: 5vw;
+  }
+  .landingContainer .landingWrapper .landingVector {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=landing.css.map */

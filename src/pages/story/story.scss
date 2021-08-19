@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+$c-01: #2f6be5;
+
+
+.storycont{
+    margin-top:5rem;
+}
+
+.storyContainer {
+	font-family: "Poppins";
+
+
+	.storyHeading {
+		color: $c-01;
+		margin: 0 2.5rem 0 2.5rem;
+	}
+
+	.storyWrapper {
+		margin: 0 2.5rem 0 2.5rem;
+		display: flex;
+		justify-items: space-between;
+		align-items: center;
+		margin-bottom: 3rem;
+		.storyLeft {
+			flex: 6;
+
+			p {
+				font-size: 16px;
+			}
+			h2 {
+				font-size: 3vw;
+			}
+
+			font-size: 1.75vw;
+			align-items: center;
+			justify-content: center;
+		}
+		.storyVector {
+			flex: 3;
+			max-width: 100%;
+			height: auto;
+			width: 40%;
+		}
+	}
+
+	.cards {
+		margin: 0 2.5rem 0 2.5rem;
+		.cardRow {
+			display: flex;
+
+			.storyCard {
+                flex: 1;
+				box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+				padding: 1rem 2rem 1rem 2rem;
+				border-radius: 16px;
+				display: flex;
+				// border: 1px solid grey;
+				width: 95%;
+                margin: 1rem 1rem;
+				align-items: flex-end;
+				justify-content: center;
+
+				.details {
+					h4 {
+						color: $c-01;
+						font-weight: 400;
+                        margin: 0.5rem 0;
+					}
+
+
+
+                    
+                 
+                  
+
+                        p {
+                            width: 100%;
+                            margin:1rem 0;
+                        }
+                
+					.socials {
+                
+						.socialItems {
+							display: flex;
+							list-style: none;
+							justify-content: flex-start;
+
+							.socialItem {
+								margin-right: 1rem;
+							}
+						}
+					}
+				}
+
+				.cardImage {
+					margin-left: auto;
+					margin: 0 1rem;
+					align-items: flex-end;
+					.cardImg {
+						object-fit:contain;
+						border-radius: 50%;
+						height: 8rem;
+						width: 8rem;
+					}
+                    .cardImg2 {
+						object-fit:cover;
+						border-radius: 50%;
+						height: 8rem;
+						width: 8rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.storyContainer {
+		.storyHeading {
+			color: $c-01;
+			margin: 0 2.5rem 0 2.5rem;
+			font-size: 5vw;
+		}
+
+		margin: 5rem 0 3rem 0;
+		width: 100%;
+		.storyWrapper {
+			margin: 1rem 2.5rem 1rem 2.5rem;
+			display: block;
+			justify-items: space-around;
+			align-items: center;
+
+			.storyLeft {
+				flex: 6;
+
+				p {
+					font-size: 2.5vw;
+                    font-weight: 600;
+				}
+
+				h2 {
+					font-size: 5vw;
+				}
+				font-family: "Poppins";
+				font-size: 1.75vw;
+				align-items: center;
+				justify-content: center;
+			}
+			.storyVector {
+				flex: 3;
+				width: 50%;
+				max-width: 100%;
+				height: auto;
+				display: none;
+			}
+		}
+
+        .cards{
+
+            .cardRow {
+                display: block;
+    
+                .storyCard {
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 1rem ;
+                   margin: 0;
+                    border-radius: 16px;
+                    display: flex;
+                    // border: 1px solid grey;
+                    width: 100%;
+                    align-items: flex-start!important;
+                    justify-content: center;
+    
+                    .details {
+                        h2 {
+                            font-size: 4vw;
+                        }
+                        h4 {
+                            font-size: 3vw;
+                            color: $c-01;
+                            font-weight: 600;
+                        }
+                        p {
+                            width: 100%;
+                            margin:1rem 0;
+                            font-size: 2.5vw;
+                        }
+                        .socials {
+                            .socialItems {
+                                display: flex;
+                                list-style: none;
+                                justify-content: flex-start;
+                        
+                               
+    
+                                .socialItem {
+                                    margin-right: 1.5rem!important;
+                                    transform:scale(1.25)!important;
+                                
+                                }
+                            }
+                        }
+                    }
+    
+                    .cardImage {
+                        margin-left: auto;
+                        margin: 0 1rem;
+                        align-items: flex-end;
+    
+                        .cardImg {
+                            object-fit: cover;
+                            border-radius: 50%;
+                            height: 5rem!important;
+                            width: 5rem!important;
+                        }
+                    }
+                }
+            }
+
+        }
+
+		
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.storyContainer {
+		.storyHeading {
+			color: $c-01;
+			margin: 0 2.5rem 0 2.5rem;
+			font-size: 5vw;
+		}
+
+		margin: 5rem 0 3rem 0;
+		width: 100%;
+		.storyWrapper {
+			margin: 1rem 2.5rem 1rem 2.5rem;
+			display: block;
+			justify-items: space-around;
+			align-items: center;
+
+			.storyLeft {
+				flex: 6;
+
+				p {
+					font-size: 2.5vw;
+                    font-weight: 600;
+				}
+
+				h2 {
+					font-size: 5vw;
+				}
+				font-family: "Poppins";
+				font-size: 1.75vw;
+				align-items: center;
+				justify-content: center;
+			}
+			.storyVector {
+				flex: 3;
+				width: 50%;
+				max-width: 100%;
+				height: auto;
+				display: none;
+			}
+		}
+
+        .cards{
+
+            .cardRow {
+                display: block;
+    
+                .storyCard {
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 1rem ;
+                   margin: 0;
+                    border-radius: 16px;
+                    display: flex;
+                    // border: 1px solid grey;
+                    width: 100%;
+                    align-items: flex-start!important;
+                    justify-content: center;
+    
+                    .details {
+                        h2 {
+                            font-size: 4vw;
+                        }
+                        h4 {
+                            font-size: 3vw;
+                            color: $c-01;
+                            font-weight: 600;
+                        }
+                        p {
+                            width: 140%;
+                            margin:1rem 0;
+                            font-size: 2.5vw;
+                        }
+                        .socials {
+                            .socialItems {
+                                display: flex;
+                                list-style: none;
+                                justify-content: flex-start;
+                        
+                               
+    
+                                .socialItem {
+                                    margin-right: 0!important;
+                                    transform:scale(0.75)!important;
+                                
+                                }
+                            }
+                        }
+                    }
+    
+                    .cardImage {
+                        margin-left: auto;
+                        margin: 0 1rem;
+                        align-items: flex-end;
+    
+                        .cardImg {
+                            object-fit: contain;
+                            border-radius: 50%;
+                            height: 5rem!important;
+                            width: 5rem!important;
+                        }
+                        .cardImg2 {
+                            object-fit:cover;
+                            border-radius: 50%;
+                            height: 5rem;
+                            width: 5rem;
+                        }
+                    }
+                }
+            }
+
+        }
+
+		
+	}
+}

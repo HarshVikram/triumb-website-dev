@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.invalid {
+  color: #f84e4e;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.signupWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.signupWrapper .signupRightContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signupWrapper .signupLeft {
+  margin: 0 2.5rem 0 2.5rem;
+  width: 50%;
+  font-family: 'Poppins';
+}
+
+.signupWrapper .signupLeft h1 {
+  margin: 1rem 0 1rem 0;
+}
+
+.signupWrapper .signupLeft .or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signupWrapper .signupLeft .or hr {
+  display: inline;
+  width: 50%;
+}
+
+.signupWrapper .signupLeft .or .orText {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.signupWrapper .signupLeft .signupLeftImg {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  text-align: center !important;
+  border-radius: 10px !important;
+  background-color: #2F6BE5 !important;
+  font-weight: 400 !important;
+}
+
+.signupWrapper .signupRight {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.labelText {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.formItems {
+  width: 100%;
+  margin: 0 0.25rem 0 0.25rem;
+}
+
+.formText {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.formText:focus {
+  outline: none;
+  border: 1px solid #2F6BE5;
+}
+
+.formRow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.signupBtn {
+  width: 100%;
+  height: 6vh;
+  background-color: #2F6BE5;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1vw;
+  border-radius: 12px;
+}
+
+.signupLeftRedirect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.signupLeftRedirect .redirectLink {
+  text-decoration: none;
+  color: #2F6BE5;
+}
+
+.googleAuth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #2F6BE5;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+}
+
+.googleAuth .authText {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1vw;
+  font-weight: 600;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .invalid {
+    font-size: 3vw;
+  }
+}
+/*# sourceMappingURL=signup.css.map */

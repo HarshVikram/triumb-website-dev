@@ -1,0 +1,310 @@
+.topbar {
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  display: block;
+}
+
+.topbarContainer {
+  font-family: 'Poppins';
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.678);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topbarContainer .topbarLeft {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.topbarContainer .topbarLeft .logo {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+.topbarContainer .topbarCenter {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.topbarContainer .topbarCenter .topbarCenterItems {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.topbarContainer .topbarCenter .topbarCenterItems a {
+  color: #000;
+  text-decoration: none;
+}
+
+.topbarContainer .topbarRight {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.topbarContainer .topbarRight .topbarLogout {
+  cursor: pointer;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 2.25rem 0 2.25rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .topbarContainer {
+    width: 100%;
+    font-family: 'Poppins';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .topbarContainer .topbarLeft {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .topbarContainer .topbarCenter {
+    -webkit-box-flex: 8;
+        -ms-flex: 8;
+            flex: 8;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    list-style: none;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems a {
+    text-decoration: none;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems .topbarCenterItem {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    width: 100%;
+    padding: 0  1rem;
+    font-size: 1.25vw;
+  }
+  .topbarContainer .topbarRight {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  .topbarContainer .topbarRight .topbarCart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0 2.25rem 0 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .topbarContainer {
+    width: 100%;
+    font-family: 'Poppins';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .topbarContainer .topbarLeft {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .topbarContainer .topbarLeft .logo {
+    width: 45px;
+    height: 45px;
+  }
+  .topbarContainer .topbarCenter {
+    -webkit-box-flex: 8;
+        -ms-flex: 8;
+            flex: 8;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    list-style: none;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems a {
+    text-decoration: none;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems .topbarCenterItem {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    width: 100%;
+    padding: 0  1rem;
+    font-size: 1.5vw;
+  }
+  .topbarContainer .topbarRight {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  .topbarContainer .topbarRight .topbarCart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0 2.25rem 0 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .topbarContainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .topbarContainer .topbarLeft {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .topbarContainer .topbarLeft .logo {
+    width: 30px;
+    height: 30px;
+  }
+  .topbarContainer .topbarCenter {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    list-style: none;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems a {
+    text-decoration: none;
+  }
+  .topbarContainer .topbarCenter .topbarCenterItems .topbarCenterItem {
+    padding: 0;
+    font-size: 2vw;
+    padding: 0 1rem;
+  }
+  .topbarContainer .topbarRight {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .topbarContainer .topbarRight .topbarCart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0 2.25rem 0 2.25rem;
+  }
+}
+/*# sourceMappingURL=topbar.css.map */

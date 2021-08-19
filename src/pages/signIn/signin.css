@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.signupGoogleImg{
+width: 100%;
+}
+
+.signupWrapper {
+margin-top: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.signupWrapper .signupLeft {
+  margin: 0 2.5rem 0 2.5rem;
+  width: 50%;
+  font-family: 'Poppins';
+}
+
+.signupWrapper .signupLeft h1 {
+  margin: 1rem 0 1rem 0;
+}
+
+.signupWrapper .signupLeft .or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signupWrapper .signupLeft .or hr {
+  display: inline;
+  width: 50%;
+}
+
+.signupWrapper .signupLeft .or .orText {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.signupWrapper .signupLeft .signupLeftImg {
+  max-width: 100%;
+  height: auto;
+  /* margin: 1rem 0 1rem 0; */
+  width: 100%;
+  text-align: center !important;
+  border-radius: 10px !important;
+  background-color: #2F6BE5!important;
+  font-weight: 400!important;
+  font-family: "Poppins"!important;
+  /* height: 7vh!important; */
+  
+}
+
+
+.signupLeftImg div{
+display: flex!important;
+align-items: center!important;
+justify-content: center!important;
+  border-radius: 10px !important;
+ /* height: 7vh!important;
+ width: 7vh!important; */
+ /* padding: 0.5rem 0.5rem!important; */
+ /* margin: 0!important; */
+
+
+
+}
+
+
+
+
+
+.signupLeftImg span{
+ align-items: center!important;
+ justify-content: center!important;
+ margin: 0 auto!important;
+ /* font-size: 1vw!important; */
+
+
+}
+
+
+.signupWrapper .signupRight {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+/* .signupLeftImg{
+
+} */
+.labelText {
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.formText {
+  /* height: 8vh; */
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.formText:focus {
+  outline: none;
+  border: 1px solid #2F6BE5;
+}
+
+.formRow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.signupBtn {
+  width: 100%;
+  /* height: 6vh; */
+  background-color: #2F6BE5;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25vw;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+}
+
+.signupLeftRedirect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.signupLeftRedirect .redirectLink {
+  text-decoration: none;
+  color: #2F6BE5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.signupWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.signupWrapper .signupLeft {
+  margin: 0 2.5rem 0 2.5rem;
+  width: 50%;
+  font-family: 'Poppins';
+}
+
+.signupWrapper .signupLeft h1 {
+  margin: 1rem 0 1rem 0;
+}
+
+.signupWrapper .signupLeft .or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signupWrapper .signupLeft .or hr {
+  display: inline;
+  width: 50%;
+}
+
+.signupWrapper .signupLeft .or .orText {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.signupWrapper .signupLeft .signupLeftImg {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+
+}
+
+.signupWrapper .signupRight {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.labelText {
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.formText {
+  /* height: 8vh; */
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid gray;
+  font-size: 18px;
+padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.formText:focus {
+  outline: none;
+  border: 1px solid #2F6BE5;
+}
+
+.formRow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.signupBtn {
+  width: 100%;
+  height: 7vh;
+  padding: 1rem 1.5rem;
+  background-color: #2F6BE5;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25vw;
+  border-radius: 12px;
+}
+
+.signupLeftRedirect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.signupLeftRedirect .redirectLink {
+  text-decoration: none;
+  color: #2F6BE5;
+}
+
+@media only screen and (max-width: 1200px) {
+  .signupWrapper {
+    width: 100%;
+    
+    height: calc( 100vh- 8vh);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .signupWrapper .signupLeft {
+    margin: 0 2.5rem 0 2.5rem;
+    width: 50%;
+    font-family: 'Poppins';
+  }
+  
+  .signupWrapper .signupLeft h1 {
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .signupWrapper .signupLeft .or {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .signupWrapper .signupLeft .or hr {
+    display: inline;
+    width: 50%;
+  }
+  
+  .signupWrapper .signupLeft .or .orText {
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  
+  .signupWrapper .signupLeft .signupLeftImg {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .signupWrapper .signupRight {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+  
+  }
+  
+  .labelText {
+    font-weight: 600;
+    font-size: 1.5vw;
+  }
+  
+  .formText {
+    /* height: 8vh; */
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .formText:focus {
+    outline: none;
+    border: 1px solid #2F6BE5;
+  }
+  
+  .formRow {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .signupBtn {
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25vw;
+    border-radius: 12px;
+  }
+  
+  .signupLeftRedirect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    font-size: 1.25vw;
+  }
+  
+  .signupLeftRedirect .redirectLink {
+    text-decoration: none;
+    color: #2F6BE5;
+  }
+  
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .signupWrapper {
+    height: calc( 100vh- 8vh);
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .signupWrapper .signupLeft {
+    margin: 0 2.5rem 0 2.5rem;
+    width: 80%;
+    font-family: 'Poppins';
+  }
+  
+  .signupWrapper .signupLeft h1 {
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .signupWrapper .signupLeft .or {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .signupWrapper .signupLeft .or hr {
+    display: inline;
+    width: 100%;
+  }
+  
+  .signupWrapper .signupLeft .or .orText {
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  
+  .signupWrapper .signupLeft .signupLeftImg {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .signupWrapper .signupRight {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  .formText:focus {
+    outline: none;
+    border: 1px solid #2F6BE5;
+  }
+  
+  .formRow {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .signupBtn {
+    width: 100%;
+    /* height: 6vh; */
+    padding: 1rem 1rem;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 2vw;
+    border-radius: 12px;
+  }
+  
+  .signupLeftRedirect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+  .signupLeftRedirect .redirectLink {
+    text-decoration: none;
+    color: #2F6BE5;
+  }
+  
+
+
+  .labelText {
+    font-weight: 600;
+    font-size: 3vw;
+  }
+  .formText {
+    /* height: 7vh; */
+    width: 100%;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    font-size: 2vw;
+    padding: 1rem 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .signupWrapper {
+    height: calc( 100vh- 8vh);
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .signupWrapper .signupLeft {
+    margin: 0 2.5rem 0 2.5rem;
+    width: 80%;
+    font-family: 'Poppins';
+  }
+  
+  .signupWrapper .signupLeft h1 {
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .signupWrapper .signupLeft .or {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .signupWrapper .signupLeft .or hr {
+    display: inline;
+    width: 100%;
+  }
+  
+  .signupWrapper .signupLeft .or .orText {
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  
+  .signupWrapper .signupLeft .signupLeftImg {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+  }
+  
+  .signupWrapper .signupRight {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  .formText:focus {
+    outline: none;
+    border: 1px solid #2F6BE5;
+  }
+  
+  .formRow {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .signupBtn {
+    width: 100%;
+    /* height: 6vh; */
+    padding: 1rem 1rem;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 3vw;
+    border-radius: 12px;
+  }
+  
+  .signupLeftRedirect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    font-size: 3vw;
+  }
+  
+  .signupLeftRedirect .redirectLink {
+    text-decoration: none;
+    color: #2F6BE5;
+  }
+  
+
+
+  .labelText {
+    font-weight: 600;
+    font-size: 3vw;
+  }
+  .formText {
+    /* height: 6vh; */
+    width: 100%;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    font-size: 2.5vw;
+    padding: 1rem 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+}
+/*# sourceMappingURL=signup.css.map */

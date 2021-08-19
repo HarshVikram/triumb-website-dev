@@ -1,0 +1,258 @@
+.packsWrapper {
+  margin: 5rem auto;
+}
+
+.packsWrapper .packsContent {
+  margin: 0 2.5rem 0 2.5rem;
+  font-family: "Poppins";
+}
+
+.packsWrapper .packsContent h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.packsWrapper .packsContent p {
+  font-size: 16px;
+}
+
+.packsWrapper .packsContent .packs {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.packsWrapper .packsContent .packs .hatchbackContent {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding-right: 0.5rem;
+  border-right: 1px solid #000;
+  margin: 1rem 1rem;
+}
+
+.packsWrapper .packsContent .packs .hatchbackContent .hatchbackHeading {
+  margin-bottom: 2rem;
+}
+
+.packsWrapper .packsContent .packs .sedanContent {
+  padding: 0  0.5rem;
+  border-right: 1px solid #000;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 1rem auto;
+}
+
+.packsWrapper .packsContent .packs .sedanContent .sedanHeading {
+  margin-bottom: 2rem;
+}
+
+.packsWrapper .packsContent .packs .suvContent {
+  padding: 0 1.5rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 1rem auto;
+}
+
+.packsWrapper .packsContent .packs .suvContent .suvHeading {
+  margin-bottom: 2rem;
+}
+
+.packsWrapper .packsContent .packs .packBtn {
+  margin-top: 2rem;
+  width: auto;
+  background-color: #2F6BE5;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1vw;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.packsWrapper .packsContent .packs .packPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 72px;
+  color: #2F6BE5;
+  text-align: center;
+}
+
+.packsWrapper .packsContent .packs .packCurrency {
+  font-size: 23px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .packsWrapper {
+    margin: 5rem auto;
+  }
+  .packsWrapper .packsContent {
+    margin: 0 2.5rem 0 2.5rem;
+    font-family: "Poppins";
+  }
+  .packsWrapper .packsContent h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .packsWrapper .packsContent p {
+    font-size: 16px;
+  }
+  .packsWrapper .packsContent .packs {
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .packsWrapper .packsContent .packs .hatchbackContent {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    padding-right: 0.5rem;
+    border-right: 1px solid #000;
+    margin: 1rem auto;
+  }
+  .packsWrapper .packsContent .packs .hatchbackContent .hatchbackHeading {
+    margin-bottom: 2rem;
+  }
+  .packsWrapper .packsContent .packs .sedanContent {
+    padding: 0  0.5rem;
+    border-right: 1px solid #000;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    margin: 1rem auto;
+  }
+  .packsWrapper .packsContent .packs .sedanContent .sedanHeading {
+    margin-bottom: 2rem;
+  }
+  .packsWrapper .packsContent .packs .suvContent {
+    padding: 0 0.5rem;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    margin: 1rem auto;
+  }
+  .packsWrapper .packsContent .packs .suvContent .suvHeading {
+    margin-bottom: 2rem;
+  }
+  .packsWrapper .packsContent .packs .packBtn {
+    margin-top: 2rem;
+    width: auto;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5vw;
+    border-radius: 12px;
+    padding: 1.5rem  1rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .packsWrapper .packsContent .packs .packPrice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 72px;
+    color: #2F6BE5;
+    text-align: center;
+  }
+  .packsWrapper .packsContent .packs .packCurrency {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .packsWrapper {
+    width: 100%;
+    margin: 3rem auto;
+  }
+  .packsWrapper .packsContent {
+    margin: 0 2.5rem 0 2.5rem;
+    font-family: "Poppins";
+  }
+  .packsWrapper .packsContent h1 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+  .packsWrapper .packsContent p {
+    font-size: 3vw;
+  }
+  .packsWrapper .packsContent .packs {
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .packsWrapper .packsContent .packs .hatchbackContent {
+    padding: 2rem;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    border-right: none;
+    border-radius: 16px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .packsWrapper .packsContent .packs .hatchbackContent .hatchbackHeading {
+    margin-bottom: 1rem;
+  }
+  .packsWrapper .packsContent .packs .hatchbackContent .packsDesc {
+    font-size: 2vw;
+  }
+  .packsWrapper .packsContent .packs .sedanContent {
+    border-right: none;
+    padding: 2rem;
+    border-radius: 16px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .packsWrapper .packsContent .packs .sedanContent .sedanHeading {
+    margin-bottom: 2rem;
+  }
+  .packsWrapper .packsContent .packs .suvContent {
+    padding: 2rem;
+    border-radius: 16px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 3rem;
+  }
+  .packsWrapper .packsContent .packs .suvContent .suvHeading {
+    margin-bottom: 2rem;
+  }
+  .packsWrapper .packsContent .packs .packBtn {
+    margin-top: 2rem;
+    background-color: #2F6BE5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5vw;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .packsWrapper .packsContent .packs .packPrice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 10vw;
+    color: #2F6BE5;
+    text-align: center;
+  }
+  .packsWrapper .packsContent .packs .packCurrency {
+    font-size: 3vw;
+  }
+}
+/*# sourceMappingURL=pack.css.map */

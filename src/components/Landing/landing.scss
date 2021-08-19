@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$c-01:#2F6BE5;
+
+.landingContainer{
+
+margin: 5rem 2.5rem;
+    .landingWrapper{
+    
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+        .landingLeft{
+            flex: 6;
+            
+            h1{
+                color: $c-01;
+                
+            }
+
+            h2{
+                font-size:3vw
+            }
+            font-family:'Poppins';
+            font-size: 1.75vw;
+            align-items: center;
+            justify-content:center
+        }
+        .landingVector{
+            flex: 3;
+                max-width: 100%;
+                height: auto;
+              
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+ 
+    .landingContainer{
+
+        margin: 2.25rem 1rem;
+        width: 100%;
+            .landingWrapper{
+                margin: 3rem 2.5rem 3rem 2.5rem;
+                display: flex;
+                justify-items: space-between;
+                align-items: center;
+                .landingLeft{
+                    flex: 6;
+                    
+                    h1{
+                        color: $c-01;
+                        font-size:7vw;
+                        
+                    }
+        
+                    h2{
+                        font-size:5vw;
+                    }
+                    font-family:'Poppins';
+                    font-size: 1.75vw;
+                    align-items: center;
+                    justify-content:center
+                }
+                .landingVector{
+                    flex: 3;
+                    width: 60%;
+                        max-width: 100%;
+                        height: auto;
+                      
+                }
+            }
+        }
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+.landingContainer{
+  
+    margin:4rem 0 0 0;
+    width: 100%;
+        .landingWrapper{
+            margin: 1rem 2.5rem 1rem 2.5rem;
+            display: flex;
+            justify-items: space-around;
+            align-items: center;
+            .landingLeft{
+                flex: 6;
+                
+                h1{
+                    color: $c-01;
+                    font-size:7vw;
+                    
+                }
+    
+                h2{
+                    font-size:5vw;
+                }
+                font-family:'Poppins';
+                font-size: 1.75vw;
+                align-items: center;
+                justify-content:center
+            }
+            .landingVector{
+                flex: 3;
+                width: 50%;
+                    max-width: 100%;
+                    height: auto;
+                  
+            }
+        }
+    }
+
+}

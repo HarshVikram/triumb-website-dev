@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.storycont {
+  margin-top: 5rem;
+}
+
+.storyContainer {
+  font-family: "Poppins";
+}
+
+.storyContainer .storyHeading {
+  color: #2f6be5;
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.storyContainer .storyWrapper {
+  margin: 0 2.5rem 0 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+.storyContainer .storyWrapper .storyLeft {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  font-size: 1.75vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.storyContainer .storyWrapper .storyLeft p {
+  font-size: 16px;
+}
+
+.storyContainer .storyWrapper .storyLeft h2 {
+  font-size: 3vw;
+}
+
+.storyContainer .storyWrapper .storyVector {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  max-width: 100%;
+  height: auto;
+  width: 40%;
+}
+
+.storyContainer .cards {
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.storyContainer .cards .cardRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.storyContainer .cards .cardRow .storyCard {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: 1rem 1rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.storyContainer .cards .cardRow .storyCard .details h4 {
+  color: #2f6be5;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.storyContainer .cards .cardRow .storyCard .details p {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.storyContainer .cards .cardRow .storyCard .details .socials .socialItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.storyContainer .cards .cardRow .storyCard .details .socials .socialItems .socialItem {
+  margin-right: 1rem;
+}
+
+.storyContainer .cards .cardRow .storyCard .cardImage {
+  margin-left: auto;
+  margin: 0 1rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.storyContainer .cards .cardRow .storyCard .cardImage .cardImg {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+.storyContainer .cards .cardRow .storyCard .cardImage .cardImg2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .storyContainer {
+    margin: 5rem 0 3rem 0;
+    width: 100%;
+  }
+  .storyContainer .storyHeading {
+    color: #2f6be5;
+    margin: 0 2.5rem 0 2.5rem;
+    font-size: 5vw;
+  }
+  .storyContainer .storyWrapper {
+    margin: 1rem 2.5rem 1rem 2.5rem;
+    display: block;
+    justify-items: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .storyContainer .storyWrapper .storyLeft {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+    font-family: "Poppins";
+    font-size: 1.75vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .storyContainer .storyWrapper .storyLeft p {
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+  .storyContainer .storyWrapper .storyLeft h2 {
+    font-size: 5vw;
+  }
+  .storyContainer .storyWrapper .storyVector {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+  .storyContainer .cards .cardRow {
+    display: block;
+  }
+  .storyContainer .cards .cardRow .storyCard {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .storyContainer .cards .cardRow .storyCard .details h2 {
+    font-size: 4vw;
+  }
+  .storyContainer .cards .cardRow .storyCard .details h4 {
+    font-size: 3vw;
+    color: #2f6be5;
+    font-weight: 600;
+  }
+  .storyContainer .cards .cardRow .storyCard .details p {
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 2.5vw;
+  }
+  .storyContainer .cards .cardRow .storyCard .details .socials .socialItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .storyContainer .cards .cardRow .storyCard .details .socials .socialItems .socialItem {
+    margin-right: 1.5rem !important;
+    -webkit-transform: scale(1.25) !important;
+            transform: scale(1.25) !important;
+  }
+  .storyContainer .cards .cardRow .storyCard .cardImage {
+    margin-left: auto;
+    margin: 0 1rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .storyContainer .cards .cardRow .storyCard .cardImage .cardImg {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50%;
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .storyContainer {
+    margin: 5rem 0 3rem 0;
+    width: 100%;
+  }
+  .storyContainer .storyHeading {
+    color: #2f6be5;
+    margin: 0 2.5rem 0 2.5rem;
+    font-size: 5vw;
+  }
+  .storyContainer .storyWrapper {
+    margin: 1rem 2.5rem 1rem 2.5rem;
+    display: block;
+    justify-items: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .storyContainer .storyWrapper .storyLeft {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+    font-family: "Poppins";
+    font-size: 1.75vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .storyContainer .storyWrapper .storyLeft p {
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+  .storyContainer .storyWrapper .storyLeft h2 {
+    font-size: 5vw;
+  }
+  .storyContainer .storyWrapper .storyVector {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+  .storyContainer .cards .cardRow {
+    display: block;
+  }
+  .storyContainer .cards .cardRow .storyCard {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .storyContainer .cards .cardRow .storyCard .details h2 {
+    font-size: 4vw;
+  }
+  .storyContainer .cards .cardRow .storyCard .details h4 {
+    font-size: 3vw;
+    color: #2f6be5;
+    font-weight: 600;
+  }
+  .storyContainer .cards .cardRow .storyCard .details p {
+    width: 140%;
+    margin: 1rem 0;
+    font-size: 2.5vw;
+  }
+  .storyContainer .cards .cardRow .storyCard .details .socials .socialItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .storyContainer .cards .cardRow .storyCard .details .socials .socialItems .socialItem {
+    margin-right: 0 !important;
+    -webkit-transform: scale(0.75) !important;
+            transform: scale(0.75) !important;
+  }
+  .storyContainer .cards .cardRow .storyCard .cardImage {
+    margin-left: auto;
+    margin: 0 1rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .storyContainer .cards .cardRow .storyCard .cardImage .cardImg {
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 50%;
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+  .storyContainer .cards .cardRow .storyCard .cardImage .cardImg2 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+  }
+}
+/*# sourceMappingURL=story.css.map */

@@ -1,0 +1,141 @@
+$c-01:#2F6BE5;
+.societyWrapper{
+    margin: 5rem 0;
+    .societyContent{
+        margin: 0 2.5rem 0 2.5rem;
+        font-family: "Poppins";
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 16px;
+        }
+
+        .societyForm{
+            margin-top:2rem;
+            
+        }
+
+        .address{
+            height: 10vh;
+        }
+
+        .societyBtn{
+   
+                width: auto;
+                // height: 6vh;
+                background-color:$c-01 ;
+                border:none;
+                color: white;
+                font-weight: 500;
+                font-size:1vw;
+                border-radius:12px;
+                padding: 1rem 1rem;
+            text-align: center;
+          
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .societyWrapper{
+        .societyContent{
+            margin: 0 2.5rem 0 2.5rem;
+            font-family: "Poppins";
+            h1{
+                font-size: 36px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 16px;
+            }
+    
+            .societyForm{
+                margin-top:2rem;
+                
+            }
+    
+            .address{
+                height: 10vh;
+            }
+    
+            .societyBtn{
+       
+                    width: auto;
+                    // height: 6vh;
+                    background-color:$c-01 ;
+                    border:none;
+                    color: white;
+                    font-weight: 500;
+                    font-size:1.25vw;
+                    border-radius:12px;
+                    padding:1rem 1rem;
+                text-align: center;
+              
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .societyWrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto;
+        .societyContent{
+        width: 100%;
+            margin: 0 2.5rem 0 2.5rem;
+            font-family: "Poppins";
+            h1{
+                font-size: 5vw;
+                font-weight: 600;
+            }
+            p{
+                font-size: 3vw;
+            }
+    
+            .societyForm{
+                margin-top:2rem;
+                
+            }
+    
+            .address{
+                height: 10vh;
+            }
+    
+            .societyBtn{
+       
+                    width: auto;
+                    height: auto;
+                    background-color:$c-01 ;
+                    border:none;
+                    color: white;
+                    font-weight: 500;
+                    font-size:2.25vw;
+                    border-radius:12px;
+                    padding: 1rem 1.25rem;
+                    text-align: center;
+              
+            }
+        }
+    }
+    
+    .totalFormRow{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2rem;
+    
+        h1{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+ 
+    
+  }

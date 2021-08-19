@@ -1,0 +1,223 @@
+.topbarContainer{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+
+    align-items: center;
+
+    .topbarLeft{
+        flex: 3;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 2.25rem 0 2.25rem;
+        .logo{
+            cursor:pointer;
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .topbarCenter{
+       
+        flex: 6;
+  
+
+        .topbarCenterItems{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            margin-right: 1rem;
+
+            a{
+                color:#000;
+                text-decoration: none;
+            }
+        }
+    }
+    .topbarRight{
+    
+        flex: 3;
+      display: flex;
+      justify-content: flex-end;
+
+        .topbarLogout{
+            cursor:pointer;
+            margin-left:auto;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0 2.25rem 0 2.25rem;
+        }
+    }
+
+}
+@media only screen and (max-width: 1250px) {
+    .topbarContainer{
+        width: 100%;
+        font-family: 'Poppins';
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+ 
+        align-items: center;
+    
+        .topbarLeft{
+            flex: 3;
+            display: flex;
+            justify-content: flex-start;
+            margin: 0 2.25rem 0 2.25rem;
+        }
+        .topbarCenter{
+           
+            flex: 8;
+      
+    
+            .topbarCenterItems{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                // margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+                .topbarCenterItem{
+                    flex:5;
+                    width: 100%;
+                    padding:0  1rem;
+                   
+                    font-size:1.25vw;
+                }
+            }
+        }
+        .topbarRight{
+            flex: 3;
+    
+            .topbarCart{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 2.25rem 0 2.25rem;
+            }
+        }
+    
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .topbarContainer{
+        width: 100%;
+        font-family: 'Poppins';
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+ 
+        align-items: center;
+    
+        .topbarLeft{
+            flex: 3;
+            display: flex;
+            justify-content: flex-start;
+            margin: 0 2.25rem 0 2.25rem;
+
+            .logo{
+
+                width: 45px;
+                height: 45px;
+            }
+        }
+        .topbarCenter{
+           
+            flex: 8;
+      
+    
+            .topbarCenterItems{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                // margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+                .topbarCenterItem{
+                    flex:5;
+                    width: 100%;
+                    padding:0  1rem;
+                   
+                    font-size:1.5vw;
+                }
+            }
+        }
+        .topbarRight{
+            flex: 3;
+    
+            .topbarCart{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 2.25rem 0 2.25rem;
+            }
+        }
+    
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .topbarContainer{
+ width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+ 
+        align-items: center;
+    
+        .topbarLeft{
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            margin: 0 1rem 0 1rem;
+            .logo{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .topbarCenter{
+           
+            flex: 3;
+      
+    
+            .topbarCenterItems{
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+
+                .topbarCenterItem{
+                    padding: 0;
+                    font-size:2vw;
+                    margin-right:0.5rem;
+                   
+                }
+            }
+        }
+        .topbarRight{
+            flex: 1;
+    
+            .topbarCart{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 2.25rem 0 2.25rem;
+            }
+        }
+    
+    }
+    
+}

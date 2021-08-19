@@ -1,0 +1,238 @@
+.topbar{
+    width: 100%;
+    position:fixed;
+    z-index: 4;
+    top: 0;
+    display:block;
+}
+.topbarContainer{
+    font-family: 'Poppins';
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(8px);
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    align-items: center;
+
+    .topbarLeft{
+        flex: 3;
+        display: flex;
+        justify-content: center;
+        // margin: 0 2.25rem 0 2.25rem;
+        .logo{
+            cursor:pointer;
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .topbarCenter{
+       
+        flex: 6;
+  
+
+        .topbarCenterItems{
+            text-align:center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            margin-right: 1rem;
+
+            a{
+                color:#000;
+                text-decoration: none;
+            }
+        }
+    }
+    .topbarRight{
+    
+        flex: 3;
+      display: flex;
+      justify-content: flex-end;
+
+        .topbarLogout{
+            cursor:pointer;
+            margin-left:auto;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0 2.25rem 0 2.25rem;
+        }
+    }
+
+}
+@media only screen and (max-width: 1250px) {
+    .topbarContainer{
+        width: 100%;
+        font-family: 'Poppins';
+        display: flex;
+        justify-content: center;
+        // height: 8vh;
+ 
+        align-items: center;
+    
+        .topbarLeft{
+            flex: 3;
+            display: flex;
+            justify-content: center;
+            // margin: 0 2.25rem 0 2.25rem;
+        }
+        .topbarCenter{
+           
+            flex: 8;
+      
+    
+            .topbarCenterItems{
+                text-align:center;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                // margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+                .topbarCenterItem{
+                    flex:5;
+                    width: 100%;
+                    padding:0  1rem;
+                   
+                    font-size:1.25vw;
+                }
+            }
+        }
+        .topbarRight{
+            flex: 3;
+    
+            .topbarCart{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 2.25rem 0 2.25rem;
+            }
+        }
+    
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .topbarContainer{
+        width: 100%;
+        font-family: 'Poppins';
+        display: flex;
+        justify-content: center;
+        // height: 8vh;
+ 
+        align-items: center;
+    
+        .topbarLeft{
+            flex: 3;
+            display: flex;
+            justify-content: center;
+            // margin: 0 2.25rem 0 2.25rem;
+
+            .logo{
+
+                width: 45px;
+                height: 45px;
+            }
+        }
+        .topbarCenter{
+           
+            flex: 8;
+      
+    
+            .topbarCenterItems{
+                text-align:center;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                // margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+                .topbarCenterItem{
+                    flex:5;
+                    width: 100%;
+                    padding:0  1rem;
+                   
+                    font-size:1.5vw;
+                }
+            }
+        }
+        .topbarRight{
+            flex: 3;
+    
+            .topbarCart{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 2.25rem 0 2.25rem;
+            }
+        }
+    
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .topbarContainer{
+ width: 100%;
+        display: flex;
+        justify-content: center;
+        // height: 8vh;
+ 
+        align-items: center;
+    
+        .topbarLeft{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            // margin: 0 1rem 0 1rem;
+            .logo{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .topbarCenter{
+           
+            flex: 3;
+      
+    
+            .topbarCenterItems{
+                text-align:center;
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                // margin-right: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+
+                .topbarCenterItem{
+                    padding: 0;
+                    font-size:2vw;
+                    padding: 0 1rem;
+                    // margin:0 1rem;
+                   
+                }
+            }
+        }
+        .topbarRight{
+            flex: 1;
+    
+            .topbarCart{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 2.25rem 0 2.25rem;
+            }
+        }
+    
+    }
+    
+}
