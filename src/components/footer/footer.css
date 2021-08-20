@@ -98,6 +98,10 @@
           flex: 6;
 }
 
+.topbarLeft Link {
+  color: black;
+}
+
 .topbarContainer .topbarCenter .topbarCenterItems {
   display: -webkit-box;
   display: -ms-flexbox;

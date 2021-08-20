@@ -29,38 +29,19 @@ export default function home() {
 		<Router>
 			<Topbar />
 			<Switch>
-				<Route exact path="/">
-					
-						<Zoom>
-							<Landing />
-						</Zoom>
-
-						<Zoom>
-							<Intro />
-						</Zoom>
-
-						<Fade>
-							<GarageLanding />
-						</Fade>
-
-						<Fade>
-							<Packs />
-						</Fade>
-
-						<Fade>
-							<Society />
-						</Fade>
-					
+				<Route exact path="/">				
+					<Zoom><Landing /></Zoom>
+					<Zoom><Intro /></Zoom>
+					<Fade><Packs /></Fade>
+					<Fade><Society /></Fade>					
 				</Route>
+
 				<Route path="/register">
-					<Slide left>
-						<SignUp />
-					</Slide>
+					<Slide left><SignUp /></Slide>
 				</Route>
+
 				<Route path="/login">
-					<Slide left>
-						<SignIn />
-					</Slide>
+					<Slide left><SignIn /></Slide>
 				</Route>
 
 				<Route
@@ -69,15 +50,11 @@ export default function home() {
 				></Route>
 
 				<Route path="/story">
-					<Fade>
-					<Story/>
-					</Fade>
+					<Fade><Story/></Fade>
 				</Route>
 
 				<Route path="/garage">
-					<Fade>
-					<GarageLanding />
-					</Fade>
+					<Fade><GarageLanding /></Fade>
 				</Route>
 			</Switch>
 			<Footer />
