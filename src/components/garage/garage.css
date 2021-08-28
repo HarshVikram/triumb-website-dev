@@ -1,0 +1,602 @@
+.service-search {
+  margin-top: 120px;
+  padding: 25px;
+  font-family: 'Poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  border: black;
+}
+
+.service-search-edge {
+	width: 25%;
+}
+
+.service-search-edge select {
+  width: 100%;
+  font-family: 'Poppins';
+  border-radius: 15px 0px 0px 15px;
+  font-weight: 600;
+  font-size: 1.2vw;
+  padding: 1rem;
+  text-align: center;
+  border: white;
+}
+
+.service-search-centre {
+	width: 25%;
+}
+
+.service-search-centre select {
+  width: 100%;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.2vw;
+  padding: 1rem;
+  text-align: center;
+  border: white;
+}
+
+.service-search-button {
+	width: 20%;
+}
+
+.service-search-button button {
+  width: 100%;
+  font-family: 'Poppins';
+  border-radius: 0px 15px 15px 0px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2vw;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+/*Something*/
+
+.service-results {
+  font-family: 'Poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.service-results-left {
+  width: 50%;
+}
+
+.service-results-right {
+  width: 50%;
+  background-image: url("./map.jpg");
+  background-color: #cccccc;
+}
+
+.service-results-right img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Result Card*/
+
+.result-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.result-image {
+  width: 100%;
+  margin: 10px;
+}
+
+.result-card img {
+  width: 170px;
+  height: 170px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.result-info-1 {
+  padding: 12px;
+  width: 35%;
+}
+
+.result-info-1 svg {
+  fill: currentColor;
+  padding-left: 1px; 
+}
+
+.result-info-1 button {
+  font-family: 'Poppins';
+  padding: 3px 8px;
+  margin-right: 10px;
+  border: none;
+  background-color: #47C6A8;
+  color: white;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.result-info-2 button {
+  font-family: 'Poppins';
+  padding: 10px 8px;
+  width: 100%;
+  border: none;
+  background-color: #2f6bef;
+  color: white;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.result-info-2 p {
+  padding-bottom: 10px;
+}
+ 
+.result-info-2 svg {
+  margin-left: 57px; 
+}
+
+.result-info-2 {
+  width: 35%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #bdbdbd;
+}
+
+.result-card p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.result-card label {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.result-card span {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.review-star {
+  font-size: 8px;
+  color: white;
+}
+
+.selection-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  max-width: 100%;
+  margin: 160px 35px;
+  padding: 20px;
+  box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -webkit-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -moz-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  border-radius: 15px;
+}
+
+.selection-container p {
+  padding-bottom: 8px;
+}
+
+.container-heading h1 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.container-heading svg {
+/*  width: 20px;
+  length: 20px;*/
+  padding: 2px;
+  fill: #2f6bef;
+}
+
+.rating {
+  padding-top: 15px;
+}
+
+.container-heading .incomplete-star {
+/*  width: 20px;
+  length: 20px;*/
+  padding: 2px;
+  fill: #81C9D7;
+}
+
+.container-heading h2 {
+  font-weight: 500;
+  padding-top: 50px;
+  font-size: 27px;
+}
+
+.booking-container p {
+  padding-bottom: 8px;
+}
+
+.container-shortlist {
+  padding: 40px 0px 0px;
+}
+
+.container-shortlist .pre-footer-right {
+  margin-right: 0px;
+  width: 100%;
+  padding-top: 0px;
+}
+
+.container-shortlist h2 {
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.container-shortlist ul {
+  padding-left: 28px;
+  padding-top: 12px;
+  padding-bottom: 22px;
+}
+
+.container-shortlist li {
+  padding-bottom: 8px;
+}
+
+.container-addon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-addon select {
+  width: 70%;
+  border-radius: 15px 0px 0px 15px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.2vw;
+  border-color: black;
+  color: gray;
+}
+
+.container-addon button {
+  width: 30%;
+  font-family: 'Poppins';
+  border-radius: 0px 15px 15px 0px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 8px 0px 16px;
+  text-align: center;
+}
+
+.container-information h2 {
+  font-weight: 500;
+  font-size: 27px;
+  padding-bottom: 20px;
+}
+
+.information-form button {
+  font-family: 'Poppins';
+  padding: 10px 15px;
+  border: none;
+  background-color: #2f6bef;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  float: right;
+}
+
+.form-row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.form-row-1 .form-items {
+  width: 50%;
+  padding: 15px;
+}
+
+.form-row-1 input {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: gray;
+}
+
+.form-row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.form-row-2 .form-items {
+  width: 33%;
+  padding: 15px;
+}
+
+.form-items label {
+  font-size: 25px;
+}
+
+.form-row-2 select {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gray;
+}
+
+.form-row-2 input {
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: gray;
+}
+
+.booking-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Poppins';
+  max-width: 100%;
+  margin: 160px 35px;
+  padding: 20px;
+}
+
+.container-information h2 {
+  font-weight: 500;
+  padding-top: 50px;
+  font-size: 27px;
+}
+
+.container-information span {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.information-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-bottom: 23px;
+}
+
+.information-right {
+  width: 50%;
+}
+
+.information-left {
+  width: 50%;
+}
+
+.booking-left .container-shortlist {
+  padding-bottom: 0px;
+}
+
+.booking-left .container-shortlist ul {
+  padding-bottom: 0px;
+}
+
+.booking-left {
+  width: 58%;
+  box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -webkit-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -moz-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.booking-right {
+  width: 42%;
+  box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -webkit-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -moz-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 15px;
+  margin-bottom: auto;
+}
+
+.booking-cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+}
+
+.cost-left {
+  text-align: left;
+  width: 50%;
+}
+
+.cost-right {
+  text-align: right;
+  width: 50%;
+}
+
+.booking-disclaimer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.booking-disclaimer svg {
+  margin-top: 6px;
+}
+
+.booking-disclaimer h3 {
+  font-size: 10px;
+  padding: 0px;
+  font-weight: 400;
+  padding-left: 3px;
+}
+
+.booking-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+}
+
+.button-left {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.button-right {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.button-left button {
+  font-family: 'Poppins';
+  padding: 10px 15px;
+  border: none;
+  background-color: #47C6A8;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  float: right;
+  width: 100%;
+}
+
+.button-right button {
+  font-family: 'Poppins';
+  padding: 10px 15px;
+  border: none;
+  background-color: #2f6bef;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  float: right;
+  width: 100%;
+}
+
+.service-confirmation {
+  margin-top: 160px;
+  text-align: center;
+  display: block;
+  max-width: 100%; 
+  height: auto;  
+}
+
+.service-confirmation img {
+  max-width: 100%;  
+  height: auto;  
+}
+
+.booking-right h2 {
+  font-weight: 500;
+  font-size: 27px;
+  padding-bottom: 20px;
+}
+
+.booking-right span {
+  font-weight: 500;
+  font-size: 11px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.booking-right svg {
+  fill: green;
+}
+
+.booking-button {
+  padding-top: 10px;
+}
+
+.payment-succesful {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  max-width: 100%;
+  margin: 160px 35px;
+  padding: 20px;
+}
+
+.payment-succesful p {
+  padding-bottom: 8px;
+}
+
+.payment-succesful .booking-left {
+  width: 100%;
+}
+
+.success-banner {
+  color: white;
+  background-color: #47C6A8;
+  padding: 40px;
+  padding-left: 35px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -webkit-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -moz-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+}
+
+.success-banner h1 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.payment-failed .booking-container {
+  margin-top: 10px;
+}
+
+.failed-banner {
+  font-family: 'Poppins';
+  color: white;
+  background-color: #C07653;
+  padding: 40px;
+  padding-left: 35px;
+  border-radius: 15px;
+  margin: 180px 55px 0px;
+  box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -webkit-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+  -moz-box-shadow: -1px 0px 10px 1px rgba(160,160,160,0.49);
+}
+
+.failed-banner h1 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 35px;
+}

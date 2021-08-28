@@ -1,9 +1,7 @@
 import "./footer.css";
 import {ExitToApp,Instagram,Twitter,LinkedIn,Facebook} from '@material-ui/icons';
 
-import {
-    Link
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AuthContext from "../../pages/home/context/AuthContext";
 import {useContext, useState, useEffect} from 'react';
 
@@ -39,13 +37,14 @@ export default function Footer() {
                 </div>
                 <div className="pre-footer-right">
                     <input  className="formText" name="MobileNumber" placeholder="Your Email" required/>
-                    <button className="societyBtn" type="submit">{`Subscribe`}</button>
+                    <button>Subscribe</button>
                 </div>
                 
             </div>
             <div className="topbarContainer">
                 <div className="topbarLeft">
-                <Link to="/" style={{textDecoration:"none"}}>© 2021 Triumb.   ALL RIGHTS RESERVED</Link></div>
+                    <Link to="/" style={{textDecoration:"none"}}>© 2021 Triumb.   ALL RIGHTS RESERVED</Link>
+                </div>
                 <div className="topbarCenter">
                     <ul className="topbarCenterItems">
                         <a href="#"><li className="topbarCenterItem">PRIVACY POLICY</li></a>

@@ -33,7 +33,7 @@ export default function Topbar() {
 
     return (
         <div className="topbar">
- <div className="topbarContainer">
+          <div className="topbarContainer">
             <div className="topbarLeft">
             <Link to="/" style={{textDecoration:"none"}}><img className="logo" src="/assets/black.png"></img></Link></div>
             <div className="topbarCenter">
@@ -48,10 +48,7 @@ export default function Topbar() {
             <div className="topbarRight">
                 {isAuthenticated?<div className="topbarLogout" ><ExitToAppIcon onClick={() => {window.location.pathname="/"}} /></div>:null}
             </div>
-            
-         
-
-        </div>
+          </div>
         </div>
        
     )

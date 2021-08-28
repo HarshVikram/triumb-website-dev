@@ -62,6 +62,7 @@
           justify-content: space-between;
   list-style: none;
   margin-right: 1rem;
+  font-size: 13px;
 }
 
 .topbarContainer .topbarCenter .topbarCenterItems a {

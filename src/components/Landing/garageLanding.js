@@ -48,7 +48,7 @@ const GarageLanding = () => {
                                     <input name="societyName" type="text" className="formText" className="formText" required/>
                                     </div>
                                 </div>
-                                <button className="societyBtn" type="submit">{`Submit`}</button>
+                                <Link to="/service-search" className="topbarCenterItem"><button className="societyBtn" type="submit">{`Submit`}</button></Link>
                             </form>
                         </div>
                     </div>
@@ -63,8 +63,16 @@ const GarageLanding = () => {
                         <div className="carousel-wrapper">
                             <Carousel breakPoints={breakPoints}>
                                 <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
                                     <CardContent>
-                                        <h2><AccountCircleRoundedIcon fontSize="large"/>Martha Stewart</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -72,8 +80,16 @@ const GarageLanding = () => {
                                     </CardContent>
                                 </Card>
                                 <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
                                     <CardContent>
-                                        <h2><AccountCircleRoundedIcon fontSize="large"/>Paul Walker</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -81,8 +97,16 @@ const GarageLanding = () => {
                                     </CardContent>
                                 </Card>
                                 <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
                                     <CardContent>
-                                        <h2><AccountCircleRoundedIcon fontSize="large"/>Jack Mack</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -90,16 +114,68 @@ const GarageLanding = () => {
                                     </CardContent>
                                 </Card>
                                 <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
                                     <CardContent>
-                                        <h2><AccountCircleRoundedIcon fontSize="large"/>Ryan Garcia</h2>                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </CardContent>
                                 </Card>
                                 <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
                                     <CardContent>
-                                        <h2><AccountCircleRoundedIcon fontSize="large"/>Dinesh Chaurasia</h2>                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </CardContent>
+                                </Card>
+                                <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
+                                    <CardContent>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </CardContent>
+                                </Card>
+                                <Card className="review-card">
+                                    <div className="card-heading">
+                                        <div className="heading-icon">
+                                            <img src="assets/person/review1.jpg" alt="" />
+                                        </div>
+                                        <div className="heading-name">
+                                            <h2>Martha Stewart</h2>
+                                            <h3>Actor, Entrepreneur, Philanthrophist, Mother, Car Enthusiast</h3>
+                                        </div>
+                                    </div>
+                                    <CardContent>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
